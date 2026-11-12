@@ -65,3 +65,37 @@ Ubuntu-based router providing:
 - Created role-based access controls
 - Implemented firewall-based network segmentation
 - Resolved Kerberos, DNS, and GPO authentication issues
+
+
+## Project Progress
+
+### Phase 1 - Core Infrastructure
+- VMware environment deployment
+- Ubuntu Router
+- BIND9 DNS
+- ISC DHCP
+- Docker and Nginx services
+
+### Phase 2 - Active Directory
+- Windows Server deployment
+- Active Directory Domain Services
+- DNS integration
+- Organizational Units and Security Groups
+- SMB file shares
+- Group Policy drive mapping
+
+### Phase 3 - Network Segmentation
+- IT subnet (10.0.10.0/24)
+- HR subnet (10.0.20.0/24)
+- Accounting subnet (10.0.30.0/24)
+- Server subnet (10.0.99.0/24)
+- Linux-based inter-subnet routing
+- Firewall segmentation using iptables
+
+### Current Status
+✅ Active Directory operational
+✅ DNS operational
+✅ Group Policy operational
+✅ Multi-subnet routing operational
+✅ IT/HR segmentation implemented
+✅ Project documentation created
