@@ -99,3 +99,9 @@ Ubuntu-based router providing:
 ✅ Multi-subnet routing operational
 ✅ IT/HR segmentation implemented
 ✅ Project documentation created
+
+## Active Directory Structure
+
+![Active Directory Structure](screenshots/Active Directory/Active Directory Structure.png)
+
+The Active Directory environment uses Organizational Units (OUs) for IT, HR, and Accounting departments along with role-based security groups.
