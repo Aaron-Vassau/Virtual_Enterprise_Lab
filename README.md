@@ -101,4 +101,3 @@ Ubuntu-based router providing:
 ✅ Project documentation create
 
 ![alt text](image-1.png)
-screenshots/active-directory/ad-structure.png
