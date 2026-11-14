@@ -98,6 +98,7 @@ Ubuntu-based router providing:
 ✅ Group Policy operational
 ✅ Multi-subnet routing operational
 ✅ IT/HR segmentation implemented
-✅ Project documentation created
+✅ Project documentation create
 
-![alt text](image.png)
+![alt text](image-1.png)
+screenshots/active-directory/ad-structure.png
