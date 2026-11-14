@@ -100,4 +100,4 @@ Ubuntu-based router providing:
 ✅ IT/HR segmentation implemented
 ✅ Project documentation created
 
-![alt text](image-1.png)
+![alt text](image.png)
