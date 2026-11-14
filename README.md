@@ -100,4 +100,80 @@ Ubuntu-based router providing:
 ✅ IT/HR segmentation implemented
 ✅ Project documentation create
 
-![alt text](image-1.png)
+## Active Directory Structure
+
+![Active Directory Structure](screenshots/active-directory/ad-structure.png)
+
+Organizational Units (OUs) were created for IT, HR, Accounting, Servers, and Workstations to support role-based administration and policy management.
+
+---
+
+## Security Groups
+
+![Security Groups](screenshots/active-directory/security-groups.png)
+
+Security groups are used to implement role-based access controls throughout the environment.
+
+---
+
+## DNS Configuration
+
+![DNS Configuration](screenshots/dns/dns-zone.png)
+
+DNS services are hosted on DC01 and provide Active Directory name resolution throughout the environment.
+
+---
+
+## Group Policy Configuration
+
+![Group Policy Configuration](screenshots/group-policy/public-drive-gpo.png)
+
+Group Policy Objects (GPOs) are used to deploy centralized configuration and drive mappings.
+
+---
+
+## Group Policy Validation
+
+![Group Policy Validation](screenshots/group-policy/gpo-applied.png)
+
+Successful Group Policy processing verified from a domain-joined workstation.
+
+---
+
+## SMB File Shares
+
+![SMB File Shares](screenshots/shares/share-list.png)
+
+Departmental file shares were created and secured using Active Directory groups and NTFS permissions.
+
+---
+
+## Access Control Validation
+
+![Access Control Validation](screenshots/shares/access-denied.png)
+
+Verification that unauthorized users are prevented from accessing restricted departmental shares.
+
+---
+
+## Router Firewall Rules
+
+![Router Firewall Rules](screenshots/networking/firewall-rules.png)
+
+iptables firewall policies on the Ubuntu Router enforce network segmentation between departments.
+
+---
+
+## Network Segmentation Validation
+
+![Network Segmentation Validation](screenshots/networking/it-to-hr-blocked.png)
+
+Traffic between the IT and HR networks is blocked while maintaining access to shared infrastructure services.
+
+---
+
+## Server Access Validation
+
+![Server Access Validation](screenshots/networking/server-access.png)
+
+Clients retain access to Active Directory, DNS, and shared services after network segmentation is 
