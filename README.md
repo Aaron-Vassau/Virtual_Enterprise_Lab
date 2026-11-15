@@ -6,6 +6,12 @@ This project documents the design and implementation of a virtual enterprise env
 
 The environment simulates a small business network featuring Active Directory, DNS, Group Policy, SMB file shares, Linux-based routing, firewall policies, and network segmentation.
 
+## Network Diagram
+
+![Enterprise Network Diagram](diagrams/enterprise-network-diagram.png)
+
+High-level architecture of the virtual enterprise environment showing Active Directory services, Linux-based routing, segmented departmental networks, and firewall-enforced access controls.
+
 ## Technologies Used
 
 - VMware Workstation
@@ -188,3 +194,4 @@ Clients retain access to Active Directory, DNS, and shared services after networ
 ## Future Enhancements
 
 See [Future Enhancements](docs/Future_Enhancements.md) for planned improvements and upcoming lab objectives.
+
