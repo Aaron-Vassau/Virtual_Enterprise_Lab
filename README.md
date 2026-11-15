@@ -4,27 +4,27 @@
 
 This project documents the design and implementation of a virtual enterprise environment built using VMware Workstation, Windows Server, Windows 11, Ubuntu Server, Alpine Linux, Docker, and Nginx.
 
-The environment was developed to gain hands-on experience with systems administration, networking, virtualization, Active Directory, Linux administration, routing, and network security.
+The environment simulates a small business network featuring Active Directory, DNS, Group Policy, SMB file shares, Linux-based routing, firewall policies, and network segmentation.
 
 ## Technologies Used
 
 - VMware Workstation
 - Windows Server
-- Active Directory
-- DNS
-- Group Policy
-- SMB File Shares
 - Windows 11
 - Ubuntu Server
 - Alpine Linux
+- Active Directory Domain Services (AD DS)
+- DNS
+- DHCP
+- Group Policy
+- SMB File Sharing
 - Docker
 - Nginx
-- iptables
 - Linux Routing
-- Subnetting
+- iptables
 - Network Segmentation
 
-## Network Design
+## Network Layout
 
 | Network | Subnet |
 |----------|----------|
@@ -33,38 +33,45 @@ The environment was developed to gain hands-on experience with systems administr
 | Accounting | 10.0.30.0/24 |
 | Servers | 10.0.99.0/24 |
 
-## Infrastructure
-
-### Domain Controller
-
-- Active Directory Domain Services
-- DNS
-- Group Policy
-- File Shares
-
-### Router
-
-Ubuntu-based router providing:
-
-- Inter-subnet routing
-- NAT
-- Firewall policies
-- Network segmentation
-
-### Services Server
-
-- Docker
-- Nginx
-- Linux services
-
 ## Key Accomplishments
 
-- Built a segmented enterprise network
-- Implemented Active Directory and Group Policy
-- Configured DNS and SMB file shares
-- Created role-based access controls
-- Implemented firewall-based network segmentation
-- Resolved Kerberos, DNS, and GPO authentication issues
+- Built a Windows Server Active Directory environment.
+- Configured DNS, Organizational Units, Security Groups, and Group Policy.
+- Implemented SMB file shares with role-based permissions.
+- Designed and deployed segmented IT, HR, Accounting, and Server networks.
+- Configured Linux-based routing between network segments.
+- Implemented firewall-based segmentation using iptables.
+- Migrated Active Directory services to a dedicated server subnet.
+- Troubleshot DNS, Kerberos, and Group Policy failures.
+
+## Current Environment
+
+### IT Network
+- Windows 11
+- 10.0.10.10
+
+### HR Network
+- Alpine Linux
+- 10.0.20.20
+
+### Server Network
+- DC01
+  - Active Directory
+  - DNS
+  - Group Policy
+  - File Shares
+  - 10.0.99.10
+
+- Ubuntu Services
+  - Docker
+  - Nginx
+  - 10.0.99.20
+
+### Router
+- Ubuntu Linux
+- Inter-subnet Routing
+- NAT
+- Firewall Policies
 
 
 ## Project Progress
