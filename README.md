@@ -8,7 +8,7 @@ The environment simulates a small business network featuring Active Directory, D
 
 ## Network Diagram
 
-![Enterprise Network Diagram](diagrams/enterprise-network-diagram.png)
+![Network Diagram](diagrams/enterprise-network-diagram.png)
 
 High-level architecture of the virtual enterprise environment showing Active Directory services, Linux-based routing, segmented departmental networks, and firewall-enforced access controls.
 
