@@ -184,3 +184,7 @@ Traffic between the IT and HR networks is blocked while maintaining access to sh
 ![Server Access Validation](screenshots/networking/server-access.png)
 
 Clients retain access to Active Directory, DNS, and shared services after network segmentation is 
+
+## Future Enhancements
+
+See [Future Enhancements](docs/Future_Enhancements.md) for planned improvements and upcoming lab objectives.
